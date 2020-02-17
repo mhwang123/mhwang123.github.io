@@ -1,41 +1,381 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Tivo is a HTML landing page template built with Bootstrap to help you crate engaging presentations for SaaS apps and convert visitors into users.">
+    <meta name="author" content="Inovatik">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
+    <!-- Website Title -->
+    <title>Material Design Test Site</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href= "https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300" rel="stylesheet">
+	<link href= "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css" rel="stylesheet">
+	<link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
 </head>
+<body data-spy="scroll" data-target=".fixed-top">
+<!-- LAYOUT CONTAINER -->
+<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Michael Hwang Placeholder</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
+      <a href="#fixed-tab-2" class="mdl-layout__tab">Learn</a>
+    </div>
+  </header>
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Testing Material Design</span>
+    <div class="avatar">
+      <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/cat.jpg" alt="Tesing Material Design" class="avatar-img"> -->
+	  <img src="images/user.png" alt="Tesing Material Design" class="avatar-img">
+    </div>
+    <!-- /.avatar -->
 
-  <!-- Add your site or application content here -->
-  <h3><p>Michael Hwang.</p></h3>
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <div class="drawer-text">
+	</div>
+     
+    <!-- </div> -->
+	<!-- <button class="download-btn"><i class="fa fa-download"></i> Download</button> -->
+	<!-- <div> -->
+     <a href="download/asset-view.apk" download="w3logo" class="button-download">Download asset-view.apk
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</a>
+  </div>
+    <!-- /.drawer-text -->
+  </div>
+  <!-- /.mdl-layout__drawer -->
+
+  <main class="mdl-layout__content">
+
+    <div class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+      <div class="page-content">
+        <!-- Your content goes here -->
+        <!-- Hero section -->
+        <div class="hero-section">
+
+          <div class="hero-text mdl-typography--text-center">
+
+            <h1 class="mdl-typography--display-2">Testing</h1>
+            <p class="mdl-typography--display-1">
+              Material Design
+            </p>
+
+            <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--accent material-hero__text-button" href="#intro">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </a>
+
+          </div>
+          <!-- /.hero-text -->
+
+        </div>
+        <!-- /.hero-section -->
+
+        <!-- INTRO -->
+        <div id="intro" class="mdl-grid intro-section">
+          <div class="about-material mdl-cell mdl-cell--12-col">
+            <p class="mdl-typography--headline">
+              Starting point for material test site.
+            </p>
+          </div>
+          <!-- /.about-material -->
+
+          <div class="about-material mdl-cell mdl-cell--12-col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum consectetur natus sequi, est similique! Temporibus rem consequuntur laudantium, illo excepturi velit quas. Culpa ipsum dolor tempore accusantium sed iusto.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dicta aliquid, inventore a ullam excepturi similique sit, nobis incidunt laboriosam amet maxime iusto nam facilis possimus quo optio? Dolor, et?
+            </p>
+          </div>
+          <!-- /.about-material -->
+
+          <div class="about-material mdl-cell mdl-cell--5-col mdl-cell--1-col-tablet mdl-cell--hide-phone">
+            <div class="circle-container">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+            <!-- /.circle-container -->
+
+          </div>
+          <!-- /.about-material -->
+          <div class="about-material mdl-cell mdl-cell--7-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+            <div class="topics-container">
+              <div class="topic">Styles</div>
+              <div class="topic">Themes</div>
+              <div class="topic">Colors</div>
+              <div class="topic">Transparency</div>
+              <div class="topic">Transitions</div>
+            </div>
+            <!-- /.topics-container -->
+          </div>
+          <!-- /.about-material -->
+
+          <div class="about-material mdl-cell mdl-cell--12-col">
+
+            <p class="clearfix">
+              <img src="images/user.png" alt="Material" class="embedded-img float-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum consectetur natus sequi, est similique! Temporibus
+              rem consequuntur laudantium, illo excepturi velit quas. Culpa ipsum dolor tempore accusantium sed iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dicta aliquid, inventore a ullam excepturi similique sit, nobis incidunt
+              laboriosam amet maxime iusto nam facilis possimus quo optio? Dolor, et?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dicta aliquid, inventore a ullam excepturi similique sit, nobis incidunt laboriosam amet maxime iusto nam facilis possimus quo optio? Dolor, et?
+            </p>
+          </div>
+          <!-- /.about-material -->
+        </div>
+        <!--/.mdl-grid -->
+
+        <!-- Testimonial -->
+        <div class="mdl-grid mdl-grid--no-spacing fullwidth-panel">
+          <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center quote-panel">
+            <blockquote>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum consectetur natus sequi, est similique! Temporibus rem consequuntur laudantium, illo excepturi velit quas. Culpa ipsum dolor tempore accusantium sed iusto.
+              </p>
+              <footer>
+                — <cite>Users</cite>
+              </footer>
+            </blockquote>
+
+          </div>
+          <!-- /.mdl-cell -->
+        </div>
+        <!--/.mdl-grid -->
+
+      </div>
+      <!-- /.page-content -->
+    </div>
+    <!-- /.tab1 -->
+
+    <div class="mdl-layout__tab-panel" id="fixed-tab-2">
+      <div class="page-content">
+        <!-- Your content goes here -->
+
+        <!-- CARDS  -->
+        <div class="mdl-grid cards-section">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-card mdl-shadow--2dp title1-card">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Title 1</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+          </div>
+          <!-- /.mdl-card -->
+          <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp title2-card">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Title 2</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+          </div>
+          <!-- /.mdl-card -->
+          <!-- <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp image-card"> -->
+            <!-- <div class="mdl-card__actions"> -->
+              <!-- <span class="image-card__title">Header</span> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- /.mdl-card -->
+		            <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phone mdl-card mdl-shadow--2dp title5-card">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Title 5</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+          </div>
+
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp title3-card">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Title 3</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+          </div>
+          <!--/.mdl-card -->
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp title4-card">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Title 4</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+									More information
+							</a>
+            </div>
+          </div>
+          <!--/.mdl-card -->
+
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp card-small">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Design</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+									More on design
+							</a>
+            </div>
+          </div>
+          <!--/.mdl-card -->
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp card-small">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Implementation</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+									More on implentation
+							</a>
+            </div>
+          </div>
+          <!--/.mdl-card -->
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp card-small">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Testing</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+									More on testing
+							</a>
+            </div>
+          </div>
+          <!--/.mdl-card -->
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp card-small">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Support</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem explicabo reiciendis corporis, optio animi autem, quisquam, temporibus sed deleniti officiis dolor eveniet tempore ad nulla deserunt laudantium, obcaecati esse! Officia.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+									More on support
+							</a>
+            </div>
+          </div>
+          <!--/.mdl-card -->
+        </div>
+        <!--/.mdl-grid -->
+
+      </div>
+      <!-- /.page-content -->
+    </div>
+    <!-- /tab2 -->
+
+    <!-- Contact -->
+    <div class="mdl-grid mdl-grid--no-spacing">
+
+      <div class="mdl-cell mdl-cell--12-col contact-intro mdl-color--indigo-900">
+        <h2 class="mdl-typography--title mdl-typography--title-color-contrast mdl-typography--font-thin mdl-typography--text-center">Contact Us</h2>
+      </div>
+      <!--/.contact-intro  -->
+
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone contact-panel form-panel mdl-color--indigo-50">
+
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="name">
+            <label class="mdl-textfield__label" for="name">Your name</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="email" id="email">
+            <label class="mdl-textfield__label" for="email">Your email</label>
+          </div>
+          <div class="button-container clearfix">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent subscribe-button">
+              Contact
+            </button>
+          </div>
+          <!--/.button-container -->
+
+        </form>
+      </div>
+      <!--/.contact-panel -->
+
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone contact-panel address-panel mdl-typography--text-center mdl-color--indigo-100">
+
+        <p class="mdl-typography--title-color-contrast mdl-typography--text-nowrap mdl-typography--font-thin">
+          <i class="material-icons">email</i> <a href="mailto:info@testing.com">info@testing.com</a>
+        </p>
+
+        <p class="mdl-typography--title-color-contrast mdl-typography--text-nowrap mdl-typography--font-thin">
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="twitter.com">twitter</a>
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="plus.google.com">Google+</a>
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="facebook.com">Facebook</a>
+        </p>
+      </div>
+      <!-- /.contact-panel -->
+
+    </div>
+    <!-- /.mdl-grid -->
+
+    <!-- FOOTER -->
+    <footer class="mdl-mini-footer mdl-color--indigo-200">
+      <div class="mdl-mini-footer__left-section">
+        <ul class="mdl-mini-footer__link-list">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+      </div>
+      <!-- /.mdl-mini-footer__left-section -->
+    </footer>
+
+  </main>
+  <!-- /.mdl-layout__content -->
+</div>
+<!-- /.mdl-layout -->
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/script.js"></script> <!-- Custom scripts -->
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 </body>
-
 </html>
